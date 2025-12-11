@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="">
+  <head>
+    <title>Talking Heads</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      :root {
+        --font-sans: "Jost", sans-serif;
+      }
+    </style>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-[#f4f6e7]">
+    <!-- Nav-bar -->
+    <header
+      class="bg-[#f4f6e7] w-full flex justify-between items-center pt-3 pl-5 pr-5 lg:px-20 fixed top-0 z-50"
+    >
+      <img
+        class="w-24 sm:w-36 h-auto"
+        src="assets/images/logo.png"
+        alt="Logo"
+      />
+
+      <i
+        id="menu-icon"
+        class="bx bx-menu text-3xl lg:hidden! cursor-pointer"
+      ></i>
+
+      <nav id="nav-links" class="hidden text-sm lg:flex gap-12 font-medium">
+        <a href="#home" class="hover:text-[#00A09B]">HOME</a>
+        <a href="#resources" class="hover:text-[#00A09B]">RESOURCES</a>
+        <a href="#contact" class="hover:text-[#00A09B]">CONTACT</a>
+      </nav>
+    </header>
+
+    <!-- ===============Home Section====================== -->
+
+    <section id="home" class="pt-24">
+      <div class="flex w-full">
+        <!-- detail side -->
+        <div
+          class="w-full pt-10 pl-10 lg:pl-24 flex flex-col justify-end pr-10"
+        >
+          <div class="">
+            <h1 class="text-6xl font-bold">
+              TALKING <br class="hidden md:block" />HEADS
+            </h1>
+            <p class="pb-5 pt-2 pr-5 text-lg text-[#686868]">
+              Information and resources about hidden challenges for young adult
+              stroke survivors
+            </p>
+            <button
+              class="w-52 h-12 border-2 border-[#00A09B] rounded-sm text-[#00A09B] font-bold"
+            >
+              ALL RESOURCES <i class="bx bx-right-arrow-alt"></i>
+            </button>
+          </div>
+        </div>
+        <!-- image side -->
+        <div class="w-full hidden md:block">
+          <img
+            class="sm:rounded-l-[50px]"
+            src="assets/images/homeimage.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============Resource Section====================== -->
+    <section id="resources" class="pt-32 pb-4 min-h-screen">
+      <div class="w-full">
+        <!-- logo-text -->
+        <div
+          class="flex flex-col items-center justify-center text-center mb-12 px-20"
+        >
+          <img src="assets/images/Rlogo.png" alt="" class="w-12 h-12 mb-4" />
+          <p class="text-2xl sm:text-3xl md:text-4xl leading-relaxed">
+            We offer professional help to those who need either simple advice or
+
+            <span class="text-[#00A09B] font-bold"
+              >psychological diagnosis.</span
+            >
+          </p>
+        </div>
+
+        <!-- card section -->
+        <div
+          class="px-10 lg:px-24 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          <!-- Card 1 -->
+          <div
+            class="w-full rounded-2xl bg-white hover:bg-[#00A09B] group cursor-pointer transition duration-700 flex flex-col justify-evenly"
+          >
+            <div class="flex justify-end p-6">
+              <img
+                class="group-hover:brightness-0 group-hover:invert transition w-20 h-20"
+                src="assets/images/brain.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-6">
+              <h2
+                class="text-[#00A09B] text-2xl lg:text-3xl font-bold group-hover:text-white"
+              >
+                Brain Fog Tip Sheet
+              </h2>
+              <p
+                class="text-[#686868] mt-4 group-hover:text-white text-sm md:text-base"
+              >
+                Learn to manage overwhelming thoughts and find calm through
+                professional guidance and coping strategies.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="w-full h-[426px] rounded-2xl bg-white hover:bg-[#00A09B] group cursor-pointer transition duration-700 flex flex-col justify-evenly"
+          >
+            <div class="flex justify-end p-6">
+              <img
+                class="group-hover:brightness-0 group-hover:invert transition w-20 h-20"
+                src="assets/images/fatigue.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-6">
+              <h2
+                class="text-[#00A09B] text-2xl lg:text-3xl font-bold group-hover:text-white"
+              >
+                Fatigue Tip Sheet
+              </h2>
+              <p
+                class="text-[#686868] mt-4 group-hover:text-white text-sm md:text-base"
+              >
+                Support to navigate sadness, hopelessness, and mood changes with
+                care and proven approaches.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="w-full h-[426px] rounded-2xl bg-white hover:bg-[#00A09B] group cursor-pointer transition duration-700 flex flex-col justify-evenly"
+          >
+            <div class="flex justify-end p-6">
+              <img
+                class="group-hover:brightness-0 group-hover:invert transition w-20 h-20"
+                src="assets/images/bell.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-6">
+              <h2
+                class="text-[#00A09B] text-2xl lg:text-3xl font-bold group-hover:text-white"
+              >
+                Feeling Overwhelmed Tip Sheet
+              </h2>
+              <p
+                class="text-[#686868] mt-4 group-hover:text-white text-sm md:text-base"
+              >
+                Specialized support for children and teens facing emotional,
+                behavioral, or developmental challenges.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="w-full h-[426px] rounded-2xl bg-white hover:bg-[#00A09B] group cursor-pointer transition duration-700 flex flex-col justify-evenly"
+          >
+            <div class="flex justify-end p-6">
+              <img
+                class="group-hover:brightness-0 group-hover:invert transition w-20 h-20"
+                src="assets/images/leaves.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-6">
+              <h2
+                class="text-[#00A09B] text-2xl lg:text-3xl font-bold group-hover:text-white"
+              >
+                Finding Meaning Enjoyment & Hope Tip Sheet
+              </h2>
+              <p
+                class="text-[#686868] mt-4 group-hover:text-white text-sm md:text-base"
+              >
+                Learn to manage overwhelming thoughts and find calm through
+                professional guidance and coping strategies.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="w-full h-[426px] rounded-2xl bg-white hover:bg-[#00A09B] group cursor-pointer transition duration-700 flex flex-col justify-evenly"
+          >
+            <div class="flex justify-end p-6">
+              <img
+                class="group-hover:brightness-0 group-hover:invert transition w-20 h-20"
+                src="assets/images/grief.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-6">
+              <h2
+                class="text-[#00A09B] text-2xl lg:text-3xl font-bold group-hover:text-white"
+              >
+                Grief & Loss Tip Sheet
+              </h2>
+              <p
+                class="text-[#686868] mt-4 group-hover:text-white text-sm md:text-base"
+              >
+                Guidance and resources to overcome dependency and regain control
+                of your life.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div
+            class="w-full h-[426px] rounded-2xl bg-white hover:bg-[#00A09B] group cursor-pointer transition duration-700 flex flex-col justify-evenly"
+          >
+            <div class="flex justify-end p-6">
+              <img
+                class="group-hover:brightness-0 group-hover:invert transition w-20 h-20"
+                src="assets/images/people.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-6">
+              <h2
+                class="text-[#00A09B] text-2xl lg:text-3xl font-bold group-hover:text-white"
+              >
+                Sex & Intimacy Tip Sheet
+              </h2>
+              <p
+                class="text-[#686868] mt-4 group-hover:text-white text-sm md:text-base"
+              >
+                Address stress, exhaustion, and balance in your professional
+                life with practical strategies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============card-list================================ -->
+    <section id="contact" class="contact pt-32 pb-4 min-h-screen">
+      <div class="">
+        <!-- Title section -->
+        <div class="">
+          <h4
+            class="uppercase text-lg text-[#A4AF5C] text-center flex items-center justify-center gap-4 py-2"
+          >
+            <hr class="h-px w-10 bg-[#A4AF5C]" />
+            Anxiety & Stress
+            <hr class="h-px w-10 bg-[#A4AF5C]" />
+          </h4>
+          <div class="text-center">
+            <h1 class="uppercase text-6xl">
+              <span class="font-bold">Brain fog</span> tip sheet
+            </h1>
+
+            <div class="w-0.5 h-20 bg-[#00A09B] mx-auto"></div>
+          </div>
+        </div>
+
+        <!-- card section -->
+
+        <div
+          class="px-10 lg:px-24 mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+        >
+          <!-- card1 -->
+          <div class="w-full bg-white rounded-[20px]">
+            <img
+              class="w-full rounded-t-[20px]"
+              src="assets/images/01.png"
+              alt=""
+            />
+            <div class="w-full p-6">
+              <h1 class="text-[#00A09B] text-xl font-bold">
+                Brain fog tip sheet sample title 02
+              </h1>
+              <p class="text-[#686868] text-lg pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                cursus tempor purus, et imperdiet massa hendrerit a. Curabitur
+                dapibus luctus nunc a cursus. Suspendisse mi lorem, commodo vel
+                augue quis,
+              </p>
+              <h4 class="text-[#A4AF5C] text-sm pt-3">02-SEP-2024</h4>
+            </div>
+          </div>
+          <!-- card2 -->
+          <div class="w-full bg-white rounded-[20px]">
+            <img
+              class="w-full rounded-t-[20px]"
+              src="assets/images/02.png"
+              alt=""
+            />
+            <div class="w-full p-6">
+              <h1 class="text-[#00A09B] text-xl font-bold">
+                Brain fog tip sheet sample title 02
+              </h1>
+              <p class="text-[#686868] text-lg pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                cursus tempor purus, et imperdiet massa hendrerit a. Curabitur
+                dapibus luctus nunc a cursus. Suspendisse mi lorem, commodo vel
+                augue quis,
+              </p>
+              <h4 class="text-[#A4AF5C] text-sm pt-3">02-SEP-2024</h4>
+            </div>
+          </div>
+          <!-- card3 -->
+          <div class="w-full bg-white rounded-[20px]">
+            <img
+              class="w-full rounded-t-[20px]"
+              src="assets/images/01.png"
+              alt=""
+            />
+            <div class="w-full p-6">
+              <h1 class="text-[#00A09B] text-xl font-bold">
+                Brain fog tip sheet sample title 02
+              </h1>
+              <p class="text-[#686868] text-lg pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                cursus tempor purus, et imperdiet massa hendrerit a. Curabitur
+                dapibus luctus nunc a cursus. Suspendisse mi lorem, commodo vel
+                augue quis,
+              </p>
+              <h4 class="text-[#A4AF5C] text-sm pt-3">02-SEP-2024</h4>
+            </div>
+          </div>
+          <!-- card4 -->
+          <div class="w-full bg-white rounded-[20px]">
+            <img
+              class="w-full rounded-t-[20px]"
+              src="assets/images/01.png"
+              alt=""
+            />
+            <div class="w-full p-6">
+              <h1 class="text-[#00A09B] text-xl font-bold">
+                Brain fog tip sheet sample title 02
+              </h1>
+              <p class="text-[#686868] text-lg pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                cursus tempor purus, et imperdiet massa hendrerit a. Curabitur
+                dapibus luctus nunc a cursus. Suspendisse mi lorem, commodo vel
+                augue quis,
+              </p>
+              <h4 class="text-[#A4AF5C] text-sm pt-3">02-SEP-2024</h4>
+            </div>
+          </div>
+          <!-- card5 -->
+          <div class="w-full bg-white rounded-[20px]">
+            <img
+              class="w-full rounded-t-[20px]"
+              src="assets/images/02.png"
+              alt=""
+            />
+            <div class="w-full p-6">
+              <h1 class="text-[#00A09B] text-xl font-bold">
+                Brain fog tip sheet sample title 02
+              </h1>
+              <p class="text-[#686868] text-lg pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                cursus tempor purus, et imperdiet massa hendrerit a. Curabitur
+                dapibus luctus nunc a cursus. Suspendisse mi lorem, commodo vel
+                augue quis,
+              </p>
+              <h4 class="text-[#A4AF5C] text-sm pt-3">02-SEP-2024</h4>
+            </div>
+          </div>
+          <!-- card6 -->
+          <div class="w-full bg-white rounded-[20px]">
+            <img
+              class="w-full rounded-t-[20px]"
+              src="assets/images/01.png"
+              alt=""
+            />
+            <div class="w-full p-6">
+              <h1 class="text-[#00A09B] text-xl font-bold">
+                Brain fog tip sheet sample title 02
+              </h1>
+              <p class="text-[#686868] text-lg pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                cursus tempor purus, et imperdiet massa hendrerit a. Curabitur
+                dapibus luctus nunc a cursus. Suspendisse mi lorem, commodo vel
+                augue quis,
+              </p>
+              <h4 class="text-[#A4AF5C] text-sm pt-3">02-SEP-2024</h4>
+            </div>
+          </div>
+          <!-- card7 -->
+          <div class="w-full bg-white rounded-[20px]">
+            <img
+              class="w-full rounded-t-[20px]"
+              src="assets/images/01.png"
+              alt=""
+            />
+            <div class="w-full p-6">
+              <h1 class="text-[#00A09B] text-xl font-bold">
+                Brain fog tip sheet sample title 02
+              </h1>
+              <p class="text-[#686868] text-lg pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                cursus tempor purus, et imperdiet massa hendrerit a. Curabitur
+                dapibus luctus nunc a cursus. Suspendisse mi lorem, commodo vel
+                augue quis,
+              </p>
+              <h4 class="text-[#A4AF5C] text-sm pt-3">02-SEP-2024</h4>
+            </div>
+          </div>
+          <!-- card8 -->
+          <div class="w-full bg-white rounded-[20px]">
+            <img
+              class="w-full rounded-t-[20px]"
+              src="assets/images/02.png"
+              alt=""
+            />
+            <div class="w-full p-6">
+              <h1 class="text-[#00A09B] text-xl font-bold">
+                Brain fog tip sheet sample title 02
+              </h1>
+              <p class="text-[#686868] text-lg pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                cursus tempor purus, et imperdiet massa hendrerit a. Curabitur
+                dapibus luctus nunc a cursus. Suspendisse mi lorem, commodo vel
+                augue quis,
+              </p>
+              <h4 class="text-[#A4AF5C] text-sm pt-3">02-SEP-2024</h4>
+            </div>
+          </div>
+          <!-- card9 -->
+          <div class="w-full bg-white rounded-[20px]">
+            <img
+              class="w-full rounded-t-[20px]"
+              src="assets/images/01.png"
+              alt=""
+            />
+            <div class="w-full p-6">
+              <h1 class="text-[#00A09B] text-xl font-bold">
+                Brain fog tip sheet sample title 02
+              </h1>
+              <p class="text-[#686868] text-lg pt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                cursus tempor purus, et imperdiet massa hendrerit a. Curabitur
+                dapibus luctus nunc a cursus. Suspendisse mi lorem, commodo vel
+                augue quis,
+              </p>
+              <h4 class="text-[#A4AF5C] text-sm pt-3">02-SEP-2024</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============footer======================= -->
+    <footer
+      class="w-full bg-[#00A09B] p-6 sm:p-10 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-6 text-center"
+    >
+      <div class="flex justify-center sm:justify-start">
+        <img
+          class="brightness-0 invert w-[150px] h-[74px]"
+          src="assets/images/logo.png"
+          alt=""
+        />
+      </div>
+
+      <div>
+        <p class="text-white text-sm sm:text-base">
+          Copyright &copy; Talking Heads All rights reserved.
+        </p>
+      </div>
+
+      <div class="flex justify-center sm:justify-end flex-wrap gap-2">
+        <div
+          class="border border-white w-[45px] h-[45px] rounded-full flex justify-center items-center"
+        >
+          <i class="bx bxl-facebook text-white text-xl"></i>
+        </div>
+        <div
+          class="border border-white w-[45px] h-[45px] rounded-full flex justify-center items-center"
+        >
+          <i class="bx bxl-linkedin text-white text-xl"></i>
+        </div>
+        <div
+          class="border border-white w-[45px] h-[45px] rounded-full flex justify-center items-center"
+        >
+          <i class="bx bxl-twitter text-white text-xl"></i>
+        </div>
+        <div
+          class="border border-white w-[45px] h-[45px] rounded-full flex justify-center items-center"
+        >
+          <i class="bx bxl-instagram text-white text-xl"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
